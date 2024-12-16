@@ -6,7 +6,7 @@ This repository is meant for users who wish to practice before entering the 42 P
 
 Online, I go by Cheyo, I'm currently a 42 student in 42 Lausanne, and I'll try my best to guide you to successfully pass your piscine at 42. During my piscine i've seen a lot of people being scared and giving up, but I've seen plenty succeed with no previous knowledge with hard work. The Piscine is a hard step for almost everyone, so getting lost will happen.
 
-42 Also has strict rules on the code you must produce. I am mostly making this guide so people can find proper sources faster and easier. If you try to learn C online, you'll be surprised and see that most of what you've learned is not going to be authorized here. It doesn't mean it would be useless however ⚠️
+42 Also has strict rules on the code you must produce. I am mostly making this guide so people can find proper resources faster and easier. If you try to learn C online, you'll be surprised and see that most of what you've learned is not going to be authorized here. It doesn't mean it would be useless however ⚠️
 
 ## What is the Piscine about ?
 
