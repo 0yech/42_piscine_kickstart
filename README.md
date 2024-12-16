@@ -148,7 +148,7 @@ I would suggest doing some research on simple Vim shortcuts to get used to it.
 
 Congratulations, you can now exit Vim.
 
-## Let's do C00's first exercice together.
+## Let's do C00's first exercise together.
 
 ```Turn-in directory : ex00/```
 
@@ -357,7 +357,7 @@ Uh oh, you are printing a character now, but it's on the same line as your Shell
 - 42 Norminette, a checker for Norm issues in your code : [42 - Norminette](https://github.com/42School/norminette)
 - Beej's Guide to C Programming, I find this book to be extremely easy to read and it was by far my best resource during the Piscine : [Beej's guide to C Programming PDF](https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf)
 - Mini-Moulinette, a tester program by 42 Students for your C modules during the Piscine. Which saves plenty of time. **Learn how to make your own tests and main functions efficiently first !** [k11q's Mini-Moulinette](https://github.com/k11q/mini-moulinette)
-- Grademe.fr, an amazing replica of the 42 Exam system, which features the actual exercices of the cursus : [Grademe.fr](https://grademe.fr)
+- Grademe.fr, an amazing replica of the 42 Exam system, which features the actual exercises of the cursus : [Grademe.fr](https://grademe.fr)
 - Francinette, another great tester for 42 Modules : [xicodomingues's Francinette](https://github.com/xicodomingues/francinette)
 
 # Piscine@Home
