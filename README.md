@@ -18,7 +18,7 @@ The piscine is the one month long entry test at 42 where you will have to do pro
 
 C is a programming language, a so called "low-level" one. The lower level a programming language is, the closer it is to actual "machine instruction language." This means it can seem very primitive, but mastering it will definitely make you great at understanding and learning higher level languages faster. Low-level programming languages are also very powerful and lightweight, for example, most major cyber attacks involve low-level vulnerabilities.
 
-In my opinion, C is an excellent language to start with. Yes, you will struggle to do anything at first, but if you get comfortable with it, you will gain non-negligeable knowledge on computers and security. This will also make learning and adapt to newer languages or recent frameworks, much easier.
+In my opinion, C is an excellent language to start with. Yes, you will struggle to do anything at first, but if you get comfortable with it, you will gain non-negligible knowledge on computers and security. This will also make learning and adapt to newer languages or recent frameworks, much easier.
 
 ## Piscine from home ? Sure why not
 
