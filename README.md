@@ -351,11 +351,11 @@ And voilà, you can see your program in action !
 
 Uh oh, you are printing a character now, but it's on the same line as your Shell's path line ? Can you find what character you need to call ```ft_putchar();``` with to print a newline ? Go find it ! Your putchar function should not print a newline, but knowing this will come in very practical in future projects.
 
-# Valuable tools and ressources to practice the Piscine
+# Valuable tools and rces to practice the Piscine
 
 - 42 Norm V4, the strict rules you'll be facing with all C projects : [42 - Norm V4](https://cdn.intra.42.fr/pdf/pdf/96987/en.norm.pdf)
 - 42 Norminette, a checker for Norm issues in your code : [42 - Norminette](https://github.com/42School/norminette)
-- Beej's Guide to C Programming, I find this book to be extremely easy to read and it was by far my best ressource during the Piscine : [Beej's guide to C Programming PDF](https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf)
+- Beej's Guide to C Programming, I find this book to be extremely easy to read and it was by far my best resource during the Piscine : [Beej's guide to C Programming PDF](https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf)
 - Mini-Moulinette, a tester program by 42 Students for your C modules during the Piscine. Which saves plenty of time. **Learn how to make your own tests and main functions efficiently first !** [k11q's Mini-Moulinette](https://github.com/k11q/mini-moulinette)
 - Grademe.fr, an amazing replica of the 42 Exam system, which features the actual exercices of the cursus : [Grademe.fr](https://grademe.fr)
 - Francinette, another great tester for 42 Modules : [xicodomingues's Francinette](https://github.com/xicodomingues/francinette)
