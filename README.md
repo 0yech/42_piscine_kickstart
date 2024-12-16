@@ -93,9 +93,9 @@ Maybe you finished Shell00, or it's very late at night and you're seeing Piscine
 During the Piscine at 42, you will be evaluated by the infamous **Moulinette**. The Moulinette is a program which consists of brutally strict checks to judge your work. But before anything happens through the Moulinette, you will be evaluated by 2 other students. This is where peer learning shines.
 - If you are being evaluated by a more experienced person, they should be able to teach you if you have questions or did something wrong.
 - If you are evaluating a more experienced person on a project you don't know or haven't seen yet, their role is to teach you how it works to prove they understood the assignment.
-- Once you'll get more comfortable with projects, you'll be the one teaching others, this is very important as teaching is one of the best ways of studying your previous work.
+- Once you get more comfortable with projects, you'll be the one teaching others, this is very important as teaching is one of the best ways of studying your previous work.
 
-When you evaluate someone, you'll get evaluation points. You will consume points everytime you will want to get evaluated. So let's say you finished Shell00, you spend 2 points to get evaluated, but something wasn't right. First of all, **you'll have a cooldown before being able to send your project again**. You will also get an email with the result of the Moulinette, telling you where the first problem was found. **It will only show you the first problem it encounters**, this means there could be more errors further in your project. All of this is designed to make sure you send something you've checked and tested many times.
+When you evaluate someone, you'll get evaluation points. You will consume points everytime you will want to get evaluated. So let's say you finished Shell00. You spend 2 points to get evaluated, but something wasn't right. First of all, **you'll have a cooldown before being able to send your project again**. You will also get an email with the result of the Moulinette, telling you where the first problem was found. **It will only show you the first problem it encounters**, this means there could be more errors further in your project. All of this is designed to make sure you send something you've checked and tested many times.
 
 ## Shell01 ? or C00 ?
 
@@ -109,7 +109,7 @@ To be very honest, C modules are way more important, specially because you will 
 
 If you never did code before, do some research and find out what variables are, what if statements are. Here's one great book that can help you out (CHAPTER 3) : [Beej's guide to C Programming](https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf)
 
-I can't recommand this book enough, it talks to you as if it was a conversation. It helped me during my entire Piscine, It doesn't use many external functions which are forbidden at 42 and goes into great technical details when needed.
+I can't recommend this book enough. It talks to you as if it was a conversation. It helped me during my entire Piscine. It doesn't use many external functions which are forbidden at 42 and goes into great technical details when needed.
 
 **Remember.. no printf, no ```for``` loops, no unauthorized functions or libraries**, you can use printf(); for testing as long as you remove it before uploading your projects.
 
