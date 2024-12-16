@@ -6,7 +6,7 @@ This repository is meant for users who wish to practice before entering the 42 P
 
 Online, I go by Cheyo, i'm currently a 42 student in 42 Lausanne, and i'll try my best to guide you to successfully pass your piscine at 42. During my piscine i've seen a lot of people being scared and giving up, but i've seen plenty succeed with no previous knowledge with hard work. The Piscine is a hard step for almost everyone, so getting lost will happen.
 
-42 Also have strict rules on the code you must produce. I am mostly making this guide so people can find proper sources faster and easier. If you try to learn C online, you'll be surprised that most of what you've learned is not going to be authorized here. It doesn't mean it would be useless however /!\
+42 Also have strict rules on the code you must produce. I am mostly making this guide so people can find proper sources faster and easier. If you try to learn C online, you'll be surprised that most of what you've learned is not going to be authorized here. It doesn't mean it would be useless however ⚠️
 
 ## What is the Piscine about ?
 
@@ -24,16 +24,16 @@ In my opinion, C is an excellent language to start with. Yes, you will struggle 
 
 You probably know if you're in the piscine already, but the Piscine starts off with a module called Shell00. You will have to make small "Bash scripts". Bash is a scripting language, which pretty much lets you make executable scripts to do commands you could do on a command line interface. It could do something like retrieving the names of all files containing "2024" in their name in the folder and subfolders you are and show them on the terminal for example. They can also be used to do things like installers, running the script would import and download the necessary files and apply changes if needed. Basically, they can do a lot.
 
-to navigate around your terminal (Using iTerm2), here's a few command you'll need :
+to navigate around your terminal , here's a few command you'll need :
 
-- ```pwd```   Shows the "Path to working directory", basically, shows where you are.
+- ```pwd```   Shows the "Path to working directory", basically, shows you where you are.
 - ```ls```    To list files and folders
 - ```cd```    Change directory, ex : ```cd Desktop```
 - ```mkdir``` Make directory, ex : ```mkdir piscine```
 - ```touch``` Create a file, ex : ```touch test.txt```
 - ```rm```    Remove a file
 - ```rmdir``` Remove a directory
-- ```chmod``` "Change mode", edit permissions. Learn about it, it'll be important. /!\ chmod calculators exists /!\
+- ```chmod``` "Change mode", edit permissions. Learn about it, it'll be important. chmod calculators exists ⚠️
 
 Terminal commands can also use flags, for example ```ls -al```. This will list files and directories where you are currently.
 - The ```-a``` flag will let you also see hidden files, which starts with a dot(.)
