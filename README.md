@@ -135,7 +135,7 @@ Vim is probably the most used text editor during the Piscine at 42, It is set up
 
  ```:set nu``` Set number. this is pretty useful, as it will now show the line numbers on screen.
 
- ```:w``` Write. writes and save what you may have edited.
+ ```:w``` Write. writes and saves what you may have edited.
 
  ```:q``` Quit, exits Vim, but won't work if there's is unsaved work.
 
