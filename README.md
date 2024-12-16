@@ -362,6 +362,7 @@ Uh oh, you are printing a character now, but it's on the same line as your Shell
 
 # Piscine@Home
 
+- Work on MacOS or Linux. You can use WSL to have Ubuntu available on Windows.
 - [42 - Norminette](https://github.com/42School/norminette)
 - [k11q's Mini-Moulinette](https://github.com/k11q/mini-moulinette)
 - [xicodomingues's Francinette](https://github.com/xicodomingues/francinette)
