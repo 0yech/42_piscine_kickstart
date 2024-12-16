@@ -351,7 +351,7 @@ And voilà, you can see your program in action !
 
 Uh oh, you are printing a character now, but it's on the same line as your Shell's path line ? Can you find what character you need to call ```ft_putchar();``` with to print a newline ? Go find it ! Your putchar function should not print a newline, but knowing this will come in very practical in future projects.
 
-# Valuable tools and rces to practice the Piscine
+# Valuable tools and resources to practice the Piscine
 
 - 42 Norm V4, the strict rules you'll be facing with all C projects : [42 - Norm V4](https://cdn.intra.42.fr/pdf/pdf/96987/en.norm.pdf)
 - 42 Norminette, a checker for Norm issues in your code : [42 - Norminette](https://github.com/42School/norminette)
