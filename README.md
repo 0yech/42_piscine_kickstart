@@ -24,7 +24,7 @@ In my opinion, C is an excellent language to start with. Yes, you will struggle 
 
 Although you won't be able to have your project evaluated, you can find all the Piscine's subjects in this guide. Testers made by 42 students are available and are most likely good enough to do your own Piscine. Grademe, an exam simulator is also very well made, and contain the actual subjects of the exams.
 
-If you're here to practice the Piscine in advance or to try it out at home. I'd suggest getting the tools available [Here](#Piscine@Home).
+If you're here to practice the Piscine in advance or to try it out at home. I'd suggest getting the tools available [Here](#PiscineHome).
 
 ## The first project
 
