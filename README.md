@@ -22,7 +22,7 @@ In my opinion, C is an excellent language to start with. Yes, you will struggle 
 
 ## Piscine from home ? Sure why not
 
-Although you won't be able to have your project evaluated, you can find all the Piscine's subjects in this guide. Testers made by 42 students are available and are most likely good enough to do your own Piscine. Grademe, an exam simulator is also very well made, and contain the actual subjects of the exams.
+Although you won't be able to have your projects evaluated, you can find all the Piscine's subjects in this guide. Testers made by 42 students are available and are most likely good enough to do your own Piscine. Grademe, an exam simulator is also very well made, and contain the actual subjects of the exams.
 
 If you're here to practice the Piscine in advance or to try it out at home. I'd suggest getting the tools available [Here](#PiscineHome).
 
@@ -42,8 +42,12 @@ to navigate around your terminal , here's a few command you'll need :
 - ```chmod``` "Change mode", edit permissions. Learn about it, it'll be important. chmod calculators exists ⚠️
 
 Terminal commands can also use flags, for example ```ls -al```. This will list files and directories where you are currently.
-- The ```-a``` flag will let you also see hidden files, which starts with a dot(.)
+- The ```-a``` flag will let you see hidden files, which starts with a dot(.)
 - The ```-l``` flag will show additionnal information for each element, such as the last edited date, size, permissions and more.
+
+To navigate around, you can do ```cd folder_name``` and then to go back, do ```cd ..```
+
+```..``` in terminals mean the parent directory, a single dot ```.``` means the current directory.
 
 This is one of **many** examples and possibilites, but the point is understanding terminal commands and flags. See more here about ls if you wish [ls command documentation](https://www.ibm.com/docs/en/power6?topic=commands-ls-command)
 
@@ -80,7 +84,7 @@ When you want to end a project, you'll have to upload your files to a git reposi
 5) use the command ```git commit``` This will open your prefered text editor. Add in a description of what you've added. Save and leave the editor. Right now you have a commit, this commit has a description, and the files you added to your queue. Git keeps track of all commits, so it's important to name them well in case you want to go back to an older one.
 6) use the command ```git status``` once again to make sure everything seems fine and is ready to be "pushed". If everything looks good, you can use ```git push``` to finish uploading your work.
 
-Once you've pushed your project, you can ```git clone``` the vogsphere repository again, give it another name or anything. You should now see that the clone you just made holds your files. You can do this to make sure your folders and files are right. Once you're sure everything is in order, you can set your project as finished.
+Once you've pushed your project, you can ```git clone``` the vogsphere repository again, give it another name or anything. You should now see that the clone you just made holds your files. You can do this to make sure your folders and files are right and properly available for the intra. Once you're sure everything is in order, you can set your project as finished.
 
 ## Evaluation system
 
@@ -91,7 +95,7 @@ During the Piscine at 42, you will be evaluated by the infamous **Moulinette**. 
 - If you are evaluating a more experienced person on a project you don't know or haven't seen yet, their role is to teach you how it works to prove they understood the assignment.
 - Once you'll get more comfortable with projects, you'll be the one teaching others, this is very important as teaching is one of the best ways of studying your previous work.
 
-When you evaluate someone, you'll get evaluation points. You will consume points everytime you will want to get evaluated. So let's say you finished Shell00, you spend 2 points to get evaluated, but something wasn't right. First of all, **you'll have a cooldown before being able to send your project again**. You will also get an email with the result of the Moulinette, telling you where the first problem was found. **It will only show you the first problem it encounters**, this means there could be more further in your project. All of this is designed to make sure you send something you've checked and tested many times.
+When you evaluate someone, you'll get evaluation points. You will consume points everytime you will want to get evaluated. So let's say you finished Shell00, you spend 2 points to get evaluated, but something wasn't right. First of all, **you'll have a cooldown before being able to send your project again**. You will also get an email with the result of the Moulinette, telling you where the first problem was found. **It will only show you the first problem it encounters**, this means there could be more errors further in your project. All of this is designed to make sure you send something you've checked and tested many times.
 
 ## Shell01 ? or C00 ?
 
@@ -107,7 +111,9 @@ If you never did code before, do some research and find out what variables are, 
 
 I can't recommand this book enough, it talks to you as if it was a conversation. It helped me during my entire Piscine, It doesn't use many external functions which are forbidden at 42 and goes into great technical details when needed.
 
-**Remember.. no printf, no ```for``` loops, no unauthorized functions or libraries**, you can use printf(); for testing as long as you remove it before uploading your projects. 
+**Remember.. no printf, no ```for``` loops, no unauthorized functions or libraries**, you can use printf(); for testing as long as you remove it before uploading your projects.
+
+Every project in C, must respect the [Norm V4](https://cdn.intra.42.fr/pdf/pdf/96987/en.norm.pdf). A set of strict rules to follow.
 
 ## Try out Vim
 
@@ -280,7 +286,7 @@ void	ft_putchar(char c)
 }
 ```
 
-# Testing, introduction to mains
+# Testing your function - introduction to mains
 
 Cool, we got some of the theory down, but how can we use that function to make sure it works ?
 
