@@ -290,7 +290,7 @@ void	ft_putchar(char c)
 
 Cool, we got some of the theory down, but how can we use that function to make sure it works ?
 
-We will have to **compile** a program. Right now our ```ft_putchar.c``` file only has a function, it's not a program.
+We will have to **compile** a program. Right now our ```ft_putchar.c``` file only has a function. It's not a program.
 
 Compiling a file means translating the code we've written to "machine instruction language", so that our computer can execute it.
 
@@ -329,7 +329,7 @@ int  main(void)
 }
 ```
 
-Notice how the main function is at the bottom. This is because it wouldn't be able to see ```ft_putchar();``` if the main was on top. There are of course many ways around this, but they'll come up handy later on. I will let you explore that by yourself.
+Notice how the main function is at the bottom. This is because it wouldn't be able to see ```ft_putchar();``` if the main was on top. There are, of course, many ways around this, but they'll come up handy later on. I will let you explore that by yourself.
 
 To compile our code, we'll use the ```cc``` command in our terminal. Short for **C Compiler**.
 
@@ -349,7 +349,7 @@ And voilà, you can see your program in action !
 
 **Make sure to remove main functions before finishing the project**, only include a main function if the subject asks you to !
 
-Uh oh, you are printing a character now, but it's on the same line as your Shell's path line ? Can you find what character you need to call ```ft_putchar();``` with to print a newline ? Go find it ! Your putchar function should not print a newline, but knowing this will come in very handy in future projects.
+Uh oh, you are printing a character now, but it's on the same line as your Shell's path line ? Can you find what character you need to call ```ft_putchar();``` with to print a newline ? Go find it ! Your putchar function should not print a newline, but knowing this will come in very practical in future projects.
 
 # Valuable tools and ressources to practice the Piscine
 
