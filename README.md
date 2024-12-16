@@ -20,6 +20,12 @@ C is a programming language, a so called "low-level" one. The lower level a prog
 
 In my opinion, C is an excellent language to start with. Yes, you will struggle to do anything at first, but if you get comfortable with it, you will gain non-negligeable knowledge on computers and security. This will also make learning and adapting to newer languages or recent frameworks, much easier.
 
+## Piscine from home ? Sure why not
+
+Although you won't be able to have your project evaluated, you can find all the Piscine's subjects in this guide. Testers made by 42 students are available and are most likely good enough to do your own Piscine. Grademe, an exam simulator is also very well made, and contain the actual subjects of the exams.
+
+If you're here to practice the Piscine in advance or to try it out at home. I'd suggest getting the tools available [Here](#Piscine@Home).
+
 ## The first project
 
 You probably know if you're in the piscine already, but the Piscine starts off with a module called Shell00. You will have to make small "Bash scripts". Bash is a scripting language, which pretty much lets you make executable scripts to do commands you could do on a command line interface. It could do something like retrieving the names of all files containing "2024" in their name in the folder and subfolders you are and show them on the terminal for example. They can also be used to do things like installers, running the script would import and download the necessary files and apply changes if needed. Basically, they can do a lot.
@@ -57,10 +63,6 @@ In your terminal, simply write "nano your_file_name" and it will open. There you
 
 To finish editing, you can do Ctrl+x to exit, it will ask you if you want to write changes. There, you will either type "y" for yes or "n" for no. If you type yes, it will show you the name of the file in case you want to change it. Just press Enter and nothing else to apply the changes and it will exit Nano.
 
-## Vim & Vscode (Visual studio code)
-
-I will get into those later on, as they're most useful for the C programming part of the piscine.
-
 ## Git... keep it simple for now.
 
 If you're reading this, you maybe know what a Git repository is, but if that's not the case. Let me help you real quick.
@@ -82,7 +84,7 @@ Once you've pushed your project, you can ```git clone``` the vogsphere repositor
 
 ## Evaluation system
 
-Maybe you've finished Shell00, or it's very late at night and you're seeing Piscine retryers going over each others computers. They're most likely evaluating each others.
+Maybe you finished Shell00, or it's very late at night and you're seeing Piscine retryers going over each others computers. They're most likely evaluating each others.
 
 During the Piscine at 42, you will be evaluated by the infamous **Moulinette**. The Moulinette is a program which consists of brutally strict checks to judge your work. But before anything happens through the Moulinette, you will be evaluated by 2 other students. This is where peer learning shines.
 - If you are being evaluated by a more experienced person, they should be able to teach you if you have questions or did something wrong.
@@ -99,7 +101,7 @@ To be very honest, C modules are way more important, specially because you will 
 
 # How to approach C modules
 
-### Have you done code before ?
+## Have you done code before ?
 
 If you never did code before, do some research and find out what variables are, what if statements are. Here's one great book that can help you out (CHAPTER 3) : [Beej's guide to C Programming](https://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf)
 
@@ -107,8 +109,40 @@ I can't recommand this book enough, it talks to you as if it was a conversation.
 
 **Remember.. no printf, no ```for``` loops, no unauthorized functions or libraries**, you can use printf(); for testing as long as you remove it before uploading your projects. 
 
+## Try out Vim
 
-### Let's do C00's first exercice together.
+Vim is probably the most used text editor during the Piscine at 42, It is set up with plugins such as proper indentation and the 42 Header to make it work well with the 42 Norm. Vim can be hard to use at first, but if you take the time to learn it well, you can produce code really really fast.
+
+**Let's open something, edit it, and exit Vim**
+
+"How do I exit Vim" is a popular joke but something you might actually hear.
+
+	vim test.c
+
+ You opened test.c in vim, if you wish to type something you will need to press the ```I``` key. You will see an --INSERT MODE-- text pop up. Now you can type stuff.
+
+ To exit Insert mode, press the ```ESC``` key.
+
+ Vim works with different "Modes", but --INSERT-- mode is going to be your friend here.
+
+ you can now press ```:```, You will be able to type at the bottom of the screen where the modes show up usually. this is where you can enter commands.
+
+ ```:set nu``` Set number. this is pretty useful, as it will now show the line numbers on screen.
+
+ ```:w``` Write. writes and save what you may have edited.
+
+ ```:q``` Quit, exits Vim, but won't work if there's is unsaved work.
+
+ ```:q!``` Force Quit, will exit Vim discarding unsaved changes.
+
+ ```:wq``` Write and Quit, saves and quits.
+
+Vim is full of shortcuts and features, if you enter a mode you didn't want by accident, just press ```ESC```.
+I would suggest doing some research on simple Vim shortcuts to get used to it.
+
+Congratulations, you can now exit Vim.
+
+## Let's do C00's first exercice together.
 
 ```Turn-in directory : ex00/```
 
@@ -246,7 +280,7 @@ void	ft_putchar(char c)
 }
 ```
 
-## Testing, introduction to mains
+# Testing, introduction to mains
 
 Cool, we got some of the theory down, but how can we use that function to make sure it works ?
 
@@ -311,7 +345,7 @@ And voilà, you can see your program in action !
 
 Uh oh, you are printing a character now, but it's on the same line as your Shell's path line ? Can you find what character you need to call ```ft_putchar();``` with to print a newline ? Go find it ! Your putchar function should not print a newline, but knowing this will come in very handy in future projects.
 
-## Valuable tools and ressources to practice the Piscine
+# Valuable tools and ressources to practice the Piscine
 
 - 42 Norm V4, the strict rules you'll be facing with all C projects : [42 - Norm V4](https://cdn.intra.42.fr/pdf/pdf/96987/en.norm.pdf)
 - 42 Norminette, a checker for Norm issues in your code : [42 - Norminette](https://github.com/42School/norminette)
@@ -319,3 +353,10 @@ Uh oh, you are printing a character now, but it's on the same line as your Shell
 - Mini-Moulinette, a tester program by 42 Students for your C modules during the Piscine. Which saves plenty of time. **Learn how to make your own tests and main functions efficiently first !** [k11q's Mini-Moulinette](https://github.com/k11q/mini-moulinette)
 - Grademe.fr, an amazing replica of the 42 Exam system, which features the actual exercices of the cursus : [Grademe.fr](https://grademe.fr)
 - Francinette, another tester for 42 Modules : [xicodomingues's Francinette](https://github.com/xicodomingues/francinette)
+
+# Piscine@Home
+
+- [42 - Norminette](https://github.com/42School/norminette)
+- [k11q's Mini-Moulinette](https://github.com/k11q/mini-moulinette)
+- [xicodomingues's Francinette](https://github.com/xicodomingues/francinette)
+- [Grademe](https://grademe.fr)
