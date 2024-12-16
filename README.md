@@ -4,7 +4,7 @@ This repository is meant for users who wish to practice before entering the 42 P
 
 # Introduction
 
-Online, I go by Cheyo, i'm currently a 42 student in 42 Lausanne, and i'll try my best to guide you to successfully pass your piscine at 42. During my piscine i've seen a lot of people being scared and giving up, but i've seen plenty succeed with no previous knowledge with hard work. The Piscine is a hard step for almost everyone, so getting lost will happen.
+Online, I go by Cheyo, I'm currently a 42 student in 42 Lausanne, and I'll try my best to guide you to successfully pass your piscine at 42. During my piscine i've seen a lot of people being scared and giving up, but I've seen plenty succeed with no previous knowledge with hard work. The Piscine is a hard step for almost everyone, so getting lost will happen.
 
 42 Also have strict rules on the code you must produce. I am mostly making this guide so people can find proper sources faster and easier. If you try to learn C online, you'll be surprised that most of what you've learned is not going to be authorized here. It doesn't mean it would be useless however ⚠️
 
@@ -12,17 +12,17 @@ Online, I go by Cheyo, i'm currently a 42 student in 42 Lausanne, and i'll try m
 
 The piscine is the one month long entry test at 42 where you will have to do projects. Forget about Python or Javascript if you thought about those programming languages. The Piscine is all about Shell/Bash and C programming.
 
-## Why C, and why other things ?
+## Why C ? and why other things ?
 
 42 Campus's use Macs or Linux systems only. I've seen many being confused as why we wouldn't or couldn't use Windows as an operating system. To put it simply, they're better development environments. MacOS is based off Linux, so there might be a few hardware or architecture differences, but they, either way, remain better to work with than Windows.
 
-C is a programming language, a so called "low-level" one. The lower level a programming language is, the closer it is to actual "machine instruction language". This means it can seem very primitive, but mastering it will definitely make you great at understanding and learning higher level languages faster. Low-level programming languages are also very powerful and lightweight, for example, most major cyber attacks involve low-level vulnerabilities.
+C is a programming language, a so called "low-level" one. The lower level a programming language is, the closer it is to actual "machine instruction language." This means it can seem very primitive, but mastering it will definitely make you great at understanding and learning higher level languages faster. Low-level programming languages are also very powerful and lightweight, for example, most major cyber attacks involve low-level vulnerabilities.
 
-In my opinion, C is an excellent language to start with. Yes, you will struggle to do anything at first, but if you get comfortable with it, you will gain non-negligeable knowledge on computers and security. This will also make learning and adapting to newer languages or recent frameworks, much easier.
+In my opinion, C is an excellent language to start with. Yes, you will struggle to do anything at first, but if you get comfortable with it, you will gain non-negligeable knowledge on computers and security. This will also make learning and adapt to newer languages or recent frameworks, much easier.
 
 ## Piscine from home ? Sure why not
 
-Although you won't be able to have your projects evaluated, you can find all the Piscine's subjects in this guide. Testers made by 42 students are available and are most likely good enough to do your own Piscine. Grademe, an exam simulator is also very well made, and contain the actual subjects of the exams.
+Although you won't be able to have your projects evaluated, you can find all the Piscine's subjects in this guide. Testers made by 42 students are available and are most likely good enough to do your own Piscine. Grademe, an exam simulator, is also very well made and contain the actual subjects of the exams.
 
 If you're here to practice the Piscine in advance or to try it out at home. I'd suggest getting the tools available [Here](#PiscineHome).
 
@@ -30,26 +30,26 @@ If you're here to practice the Piscine in advance or to try it out at home. I'd 
 
 You probably know if you're in the piscine already, but the Piscine starts off with a module called Shell00. You will have to make small "Bash scripts". Bash is a scripting language, which pretty much lets you make executable scripts to do commands you could do on a command line interface. It could do something like retrieving the names of all files containing "2024" in their name in the folder and subfolders you are and show them on the terminal for example. They can also be used to do things like installers, running the script would import and download the necessary files and apply changes if needed. Basically, they can do a lot.
 
-to navigate around your terminal , here's a few command you'll need :
+To navigate around your terminal , here's a few command you'll need :
 
-- ```pwd```   Shows the "Path to working directory", basically, shows you where you are.
+- ```pwd```   Shows the "Print working directory", basically, shows you where you are.
 - ```ls```    To list files and folders
 - ```cd```    Change directory, ex : ```cd Desktop```
 - ```mkdir``` Make directory, ex : ```mkdir piscine```
 - ```touch``` Create a file, ex : ```touch test.txt```
 - ```rm```    Remove a file
 - ```rmdir``` Remove a directory
-- ```chmod``` "Change mode", edit permissions. Learn about it, it'll be important. chmod calculators exists ⚠️
+- ```chmod``` "Change mode", edit permissions. Learn about it. It'll be important. chmod calculators exist ⚠️
 
 Terminal commands can also use flags, for example ```ls -al```. This will list files and directories where you are currently.
 - The ```-a``` flag will let you see hidden files, which starts with a dot(.)
-- The ```-l``` flag will show additionnal information for each element, such as the last edited date, size, permissions and more.
+- The ```-l``` flag will show additional information for each element, such as the last edited date, size, permissions and more.
 
 To navigate around, you can do ```cd folder_name``` and then to go back, do ```cd ..```
 
-```..``` in terminals mean the parent directory, a single dot ```.``` means the current directory.
+```..``` in terminals means the parent directory, a single dot ```.``` means the current directory.
 
-This is one of **many** examples and possibilites, but the point is understanding terminal commands and flags. See more here about ls if you wish [ls command documentation](https://www.ibm.com/docs/en/power6?topic=commands-ls-command)
+This is one of **many** examples and possibilities, but the point is understanding terminal commands and flags. See more here about ls if you wish [ls command documentation](https://www.ibm.com/docs/en/power6?topic=commands-ls-command).
 
 ## Text editing 101
 
@@ -71,7 +71,7 @@ To finish editing, you can do Ctrl+x to exit, it will ask you if you want to wri
 
 If you're reading this, you maybe know what a Git repository is, but if that's not the case. Let me help you real quick.
 
-Git is a version control system. It's purpose is to upload, share and update project files in what we call repositories.
+Git is a version control system. Its purpose is to upload, share and update project files in what we call repositories.
 
 A repository is basically a folder you've initiated git within it. The purpose of version controlling is being able to go back to any older version of your project. It has many other purposes, specially later on for group projects. For now, we'll keep it very very simple.
 
@@ -79,10 +79,10 @@ When you want to end a project, you'll have to upload your files to a git reposi
 
 1) Copy the vogsphere link. In your terminal, type ```git clone vogsphere_link_goes_here wanted_name```. (Ex : ```git clone git@vogsphere.42lausanne.ch:vogsphere/XXX Shell00```) This will make a repository with only git initiated within it, containing the information it needs to upload the project to the intra.
 2) Copy your work into the folder/repository. Make sure the folders and files match up to what the subject PDFs demand.
-3) use the command ```git add .``` This will add everything in the current folder in a queue.
-4) use the command ```git status``` This command you should use at pretty much every step to make sure everything is working right. At this point it should list all of the files you've added to your queue.
-5) use the command ```git commit``` This will open your prefered text editor. Add in a description of what you've added. Save and leave the editor. Right now you have a commit, this commit has a description, and the files you added to your queue. Git keeps track of all commits, so it's important to name them well in case you want to go back to an older one.
-6) use the command ```git status``` once again to make sure everything seems fine and is ready to be "pushed". If everything looks good, you can use ```git push``` to finish uploading your work.
+3) Use the command ```git add .``` This will add everything in the current folder in a queue.
+4) Use the command ```git status``` This command you should use at pretty much every step to make sure everything is working right. At this point it should list all of the files you've added to your queue.
+5) Use the command ```git commit``` This will open your preferred text editor. Add in a description of what you've added. Save and leave the editor. Right now you have a commit, this commit has a description, and the files you added to your queue. Git keeps track of all commits, so it's important to name them well in case you want to go back to an older one.
+6) Use the command ```git status``` once again to make sure everything seems fine and is ready to be "pushed". If everything looks good, you can use ```git push``` to finish uploading your work.
 
 Once you've pushed your project, you can ```git clone``` the vogsphere repository again, give it another name or anything. You should now see that the clone you just made holds your files. You can do this to make sure your folders and files are right and properly available for the intra. Once you're sure everything is in order, you can set your project as finished.
 
