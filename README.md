@@ -188,7 +188,7 @@ Okay now that sounds very complicated, but for now, I will simplify what that te
 ```fildes``` we can use as a setting for the write function. There's 3 available options.
 
 
-- ```0``` for an **input** type, but it isn't used anymore.
+- ```0``` for an **input** type, but it isn't used here.
 - ```1``` for an **output** type, something we want to push out. This is what we'll use to write something out.
 - ```2``` for an **error** type, this will be used later on when projects will ask you to print out errors.
 
